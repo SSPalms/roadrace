@@ -58,7 +58,7 @@ void GuiManager::generateSquareGrid() {
     }
 
 
-    int border=5;
+    int border = 4 ;
     int size = ui->gridLayoutWidget->width()/squares.size()/2;
 
     Square::setSize(size);
@@ -75,6 +75,7 @@ void GuiManager::generateSquareGrid() {
             QSize size1(size,size);
             QPixmap map = setmap(proc, size1);
             lbl->setPixmap(map);
+            lbl->setAlignment(Qt::AlignCenter);
             lbl->setFixedHeight(size);
             lbl->setFixedWidth(size);
             Player *owner = proc->getOwner();
@@ -91,7 +92,8 @@ void GuiManager::generateSquareGrid() {
         //ui->gameLayout->setRowMinimumHeight(index,size);
 
     }
-    ui->gameLayout->setSpacing(0);
+    ui->gameLayout->setVerticalSpacing(0);
+    ui->gameLayout->setHorizontalSpacing(0);
 }
 
 
@@ -235,14 +237,8 @@ void GuiManager::endGame(SquareLabel* x)
 {
     Updater::instance().stop();
     QMessageBox::information(GuiManager::instance().getUi()->gridLayoutWidget,"Congratualtions!!","You have won the game! But can you do it again?.",0,0);
+    Sound::instance().playSound("winningSound",1);
 }
-
-
-
-
-
-
-
 
 void GuiManager::on_btnSendToServer_clicked()
 {

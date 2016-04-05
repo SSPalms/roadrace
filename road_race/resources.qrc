@@ -28,6 +28,7 @@
         <file alias="winningSound">Winning.wav</file>
         <file alias="charred">Charred.jpg</file>
         <file alias="win">win.png</file>
-        <file alias="soundtrack">Pacman_Introduction_Music-KP-826387403.wav</file>
+        <file alias="unowned">unowned.png</file>
+        <file alias="music">music.wav</file>
     </qresource>
 </RCC>

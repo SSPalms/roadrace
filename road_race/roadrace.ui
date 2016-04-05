@@ -147,7 +147,11 @@ font-size:30px;</string>
       <height>621</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gameLayout" columnminimumwidth="0"/>
+    <layout class="QGridLayout" name="gameLayout" columnminimumwidth="0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+    </layout>
    </widget>
    <widget class="QLabel" name="wo1">
     <property name="geometry">
@@ -251,6 +255,9 @@ font-size:30px;</string>
     </property>
     <property name="text">
      <string>Normal Mode</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QRadioButton" name="HardBtn">

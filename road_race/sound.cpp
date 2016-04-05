@@ -1,5 +1,6 @@
 #include <sound.h>
 #include <roadrace.h>
+#include <gui.h>
 #include <QString>
 #include <QFile>
 #include <QObject>
@@ -20,15 +21,21 @@ void Sound::playSound(QString s, float volume)
 {
     effect = new QSoundEffect;
     effect->setSource(QUrl::fromLocalFile(s));
-    effect->setVolume(volume);
+    effect->setVolume(volume * vol);
     effect->play();
 }
 
 void Sound::playSoundTrack()
 {
     effect = new QSoundEffect;
-    effect->setSource(QUrl::fromLocalFile("soundtrack"));
-    effect->setVolume(.25f);
+    effect->setSource(QUrl::fromLocalFile(":/music.wav"));
+    effect->setVolume(.65f * vol);
     effect->setLoopCount(QSoundEffect::Infinite);
     effect->play();
+}
+
+void Sound::updateVolume()
+{
+    int i = GuiManager::instance().getUi()->volumeSlider->value();
+    vol = i;
 }

@@ -42,6 +42,8 @@ private slots:
     void openJoin();
     void on_joinBtn_clicked();
 
+    void on_volumeSlider_sliderMoved(int position);
+
 private:
     Ui::RoadRace *ui;
     QTcpSocket *socket;

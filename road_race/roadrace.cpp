@@ -57,6 +57,8 @@ void RoadRace::on_btnStuff_clicked()
 
     GuiManager::instance().init();
 
+    Sound::instance().playSoundTrack();
+
     Updater::instance().start();
     //sets a difficulty based on the radio button
    GuiManager::instance().newDiff();
@@ -348,4 +350,9 @@ void RoadRace::openJoin(){
 void RoadRace::on_joinBtn_clicked()
 {
 
+}
+
+void RoadRace::on_volumeSlider_sliderMoved(int position)
+{
+    Sound::instance().updateVolume();
 }
