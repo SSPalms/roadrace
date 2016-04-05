@@ -38,7 +38,10 @@ private slots:
     void on_tst2Btn_clicked();
     void on_RanBtn_clicked();
     void openMulti();
+
     void openJoin();
+    void on_joinBtn_clicked();
+
 private:
     Ui::RoadRace *ui;
     QTcpSocket *socket;
