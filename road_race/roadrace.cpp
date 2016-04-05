@@ -7,6 +7,7 @@
 #include "multiplayer.h"
 #include "square.h"
 #include "joiner.h"
+#include "sound.h"
 #include <QLabel>
 #include <QMessageBox>
 #include "levelmanager.h"
@@ -33,6 +34,7 @@ RoadRace::RoadRace(QWidget *parent) :
     connect(ui->cheatBtn,SIGNAL(clicked()),this,SLOT(openCheat()));
     connect(ui->testBtn,SIGNAL(clicked()),this,SLOT(openMulti()));
     connect(ui->joinBtn,SIGNAL(clicked()),this,SLOT(openJoin()));
+
 }
 
 //destructor

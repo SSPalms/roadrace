@@ -626,6 +626,7 @@ qrc_resources.cpp: ../road_race/resources.qrc \
 		../road_race/wooden_bridge_clip_art_17037.jpg \
 		../road_race/Explosion.wav \
 		../road_race/swamp.jpg \
+		../road_race/Pacman_Introduction_Music-KP-826387403.wav \
 		../road_race/Winning.wav \
 		../road_race/boat.jpg \
 		../road_race/single-player.rr \
@@ -640,7 +641,7 @@ qrc_resources.cpp: ../road_race/resources.qrc \
 		../road_race/Fire.wav \
 		../road_race/forrest.jpg \
 		../road_race/random.rr \
-		../road_race/win.jpg \
+		../road_race/win.png \
 		../road_race/tunnel.jpg \
 		../road_race/Charred.jpg \
 		../road_race/Construction.wav \
@@ -936,13 +937,12 @@ moc_gamemodel.cpp: ../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QObject \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -1118,13 +1118,12 @@ moc_gui.cpp: ../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QObject \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -1324,13 +1323,12 @@ moc_squarelabel.cpp: ../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QLabel \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -1870,13 +1868,12 @@ main.o: ../road_race/main.cpp ../road_race/roadrace.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -2061,13 +2058,12 @@ roadrace.o: ../road_race/roadrace.cpp ../road_race/roadrace.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -2275,13 +2271,12 @@ network.o: ../road_race/network.cpp ../road_race/network.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -2468,13 +2463,12 @@ gamemodel.o: ../road_race/gamemodel.cpp ../../../Qt5.5.1/5.5/gcc_64/include/QtWi
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -2781,13 +2775,12 @@ square.o: ../road_race/square.cpp ../road_race/square.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -2979,13 +2972,12 @@ gamefile.o: ../road_race/gamefile.cpp ../road_race/gamefile.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -3169,13 +3161,12 @@ player.o: ../road_race/player.cpp ../road_race/player.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -3360,13 +3351,12 @@ gui.o: ../road_race/gui.cpp ../road_race/gui.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -3395,6 +3385,11 @@ gui.o: ../road_race/gui.cpp ../road_race/gui.h \
 		../road_race/squarelabel.h \
 		../road_race/gamefile.h \
 		../road_race/utils.h \
+		../road_race/sound.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QString \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/QSoundEffect \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qsoundeffect.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qtmultimediadefs.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMessageBox \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o gui.o ../road_race/gui.cpp
@@ -3561,13 +3556,12 @@ levelmanager.o: ../road_race/levelmanager.cpp ../road_race/levelmanager.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -3596,6 +3590,11 @@ levelmanager.o: ../road_race/levelmanager.cpp ../road_race/levelmanager.h \
 		../road_race/squarelabel.h \
 		../road_race/gamefile.h \
 		../road_race/utils.h \
+		../road_race/sound.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QString \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/QSoundEffect \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qsoundeffect.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qtmultimediadefs.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMessageBox \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmessagebox.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QDebug
@@ -3769,13 +3768,12 @@ squarelabel.o: ../road_race/squarelabel.cpp ../road_race/squarelabel.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -3973,10 +3971,9 @@ cheater.o: ../road_race/cheater.cpp ../road_race/cheater.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -4178,13 +4175,12 @@ multiplayer.o: ../road_race/multiplayer.cpp ../road_race/multiplayer.h \
 		../road_race/utils.h \
 		../road_race/gui.h \
 		ui_roadrace.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -4373,13 +4369,12 @@ joiner.o: ../road_race/joiner.cpp ../road_race/joiner.h \
 		ui_roadrace.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QRadioButton \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qradiobutton.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QSlider \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QStatusBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextBrowser \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextbrowser.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtextedit.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtextdocument.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QTextEdit \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolBar \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtoolbar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QToolButton \
@@ -4394,9 +4389,9 @@ joiner.o: ../road_race/joiner.cpp ../road_race/joiner.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o joiner.o ../road_race/joiner.cpp
 
 sound.o: ../road_race/sound.cpp ../road_race/sound.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/QSoundEffect \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qsoundeffect.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qtmultimediadefs.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QString \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qstring.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qchar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qglobal.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qconfig.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qfeatures.h \
@@ -4425,16 +4420,17 @@ sound.o: ../road_race/sound.cpp ../road_race/sound.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qglobalstatic.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qmutex.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qnumeric.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qobject.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qnamespace.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qstring.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qchar.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qbytearray.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qnamespace.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qarraydata.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/QSoundEffect \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qsoundeffect.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtMultimedia/qtmultimediadefs.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qobject.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qobjectdefs_impl.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qlist.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qalgorithms.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qiterator.h \
@@ -4454,14 +4450,23 @@ sound.o: ../road_race/sound.cpp ../road_race/sound.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qurlquery.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qshareddata.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qhash.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QFile \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qfile.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qfiledevice.h \
+		../road_race/roadrace.h \
+		../road_race/network.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtNetwork/QTcpSocket \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtNetwork/qabstractsocket.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qiodevice.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QObject \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMessageBox \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmessagebox.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qmap.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qvector.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qset.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMainWindow \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmainwindow.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qwidget.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qwindowdefs_win.h \
@@ -4469,12 +4474,10 @@ sound.o: ../road_race/sound.cpp ../road_race/sound.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qpaintdevice.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qrect.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qsize.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qpoint.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qpalette.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qcolor.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qrgb.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qbrush.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qvector.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qmatrix.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qpolygon.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qregion.h \
@@ -4494,15 +4497,21 @@ sound.o: ../road_race/sound.cpp ../road_race/sound.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qcursor.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qkeysequence.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qevent.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qvariant.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qmap.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qdebug.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qtextstream.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qlocale.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qset.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qfile.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qfiledevice.h \
 		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qvector2d.h \
-		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtouchdevice.h
+		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qtouchdevice.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtGui/qicon.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QSignalMapper \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/qsignalmapper.h \
+		../road_race/cheater.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QFile \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtCore/QObject \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/QMessageBox \
+		../../../Qt5.5.1/5.5/gcc_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o sound.o ../road_race/sound.cpp
 
 qrc_resources.o: qrc_resources.cpp 
